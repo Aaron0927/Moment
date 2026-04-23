@@ -20,8 +20,10 @@ struct AuthTextField: View {
             Group {
                 if isSecure && !isPasswordVisible {
                     SecureField(placeholder, text: $text)
+                        .frame(height: 20)
                 } else {
                     TextField(placeholder, text: $text)
+                        .frame(height: 20)
                 }
             }
             .font(.system(size: 14))

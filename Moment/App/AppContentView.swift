@@ -18,6 +18,8 @@ struct AppContentView: View {
                     switch destination {
                     case .register:
                         RegisterView()
+                            .environmentObject(authViewModel)
+                            .navigationBarBackButtonHidden(true)
                     case .forgotPassword:
                         Text("Forgot Password")
                     }
