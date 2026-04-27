@@ -6,6 +6,7 @@
 ## 技术栈
 - **语言**: Swift 5.9
 - **UI Framework**: SwiftUI
+- **数据管理**: SwiftData
 - **架构**: Clean Architecture + MVVM
 - **依赖管理**: Swift Package Manager
 - **Minimum**: iOS 17.0
@@ -13,8 +14,8 @@
 
 ## 常用命令
 
-- Build: `xcodebuild -project Moment.xcodeproj -scheme Moment -configuration Debug -destination 'generic/platform=iOS'`
-- Test: `xcodebuild  test -project Moment.xcodeproj -scheme Moment -destination 'platform=iOS Simulator,name=iPhone 17 Pro'`
+- Build: `xcodebuild build -project Moment.xcodeproj -scheme Moment -configuration Debug -destination 'generic/platform=iOS'`
+- Test: `xcodebuild test -project Moment.xcodeproj -scheme Moment -destination 'platform=iOS Simulator,name=iPhone 17 Pro'`
 - Clean: `xcodebuild clean -project Moment.xcodeproj -scheme Moment`
 
 
